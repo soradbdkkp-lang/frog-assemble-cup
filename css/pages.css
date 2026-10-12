@@ -1,0 +1,17 @@
+.hero { padding-block: 64px 44px; border-bottom: 1px solid var(--line); }
+.hero-label { color: var(--accent); letter-spacing: .1em; font-size: .85rem; }
+.hero .lead { max-width: 640px; color: var(--muted); font-size: 1.05rem; margin-bottom: 26px; }
+.hero-contact { margin: 16px 0 0; color: var(--muted); font-size: .93rem; }
+.hero h1 { margin-bottom: 18px; }
+.section { padding-top: 48px; }
+.section-heading { margin-bottom: 20px; }
+.page-hero { padding-block: 40px 28px; }
+.page-hero h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 12px; }
+.rule-shell { display: grid; grid-template-columns: 224px minmax(0, 1fr); align-items: start; gap: 28px; }
+.rule-content { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; min-width: 0; }
+.check-list { padding-left: 1.3em; }
+.check-list li + li { margin-top: 8px; }
+@media (max-width: 900px) { .rule-shell { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
+@media (max-width: 600px) { .hero { padding-block: 40px 32px; } .section { padding-top: 36px; } .page-hero { padding-block: 28px 24px; } }
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
