@@ -15,3 +15,11 @@
 @media (max-width: 600px) { .hero { padding-block: 40px 32px; } .section { padding-top: 36px; } .page-hero { padding-block: 28px 24px; } }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* Participation comparison: explicit lines and column divider. */
+.comparison-table { min-width: 810px; font-size: .875rem; }
+.comparison-table th, .comparison-table td { padding: 14px 12px; }
+.comparison-table th:first-child { width: 164px; }
+.comparison-table th:last-child { min-width: 100px; }
+.comparison-table tr > :nth-child(3) { border-left: 2px solid var(--accent); }
+.comparison-line { display: block; white-space: nowrap; }
