@@ -23,3 +23,12 @@
 .comparison-table th:last-child { min-width: 100px; }
 .comparison-table tr > :nth-child(3) { border-left: 2px solid var(--accent); }
 .comparison-line { display: block; white-space: nowrap; }
+
+/* Confirmed MAP pools: shared card structure for each stage. */
+.map-pool { margin-top: 28px; }
+.map-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; padding: 0; list-style: none; }
+.map-card { overflow: hidden; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); }
+.map-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.map-card__name { margin: 0; padding: 14px; font-weight: 700; line-height: 1.6; }
+@media (max-width: 1100px) and (min-width: 901px), (max-width: 700px) { .map-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .map-grid { grid-template-columns: minmax(0, 1fr); } }
