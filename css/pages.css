@@ -32,3 +32,23 @@
 .map-card__name { margin: 0; padding: 14px; font-weight: 700; line-height: 1.6; }
 @media (max-width: 1100px) and (min-width: 901px), (max-width: 700px) { .map-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 480px) { .map-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Tournament lists and schedule remain readable on small screens. */
+.name-list { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; }
+.name-list li { padding: 6px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); max-width: 100%; }
+.team-grid h3 { color: var(--accent); }
+.schedule-table { min-width: 610px; }
+.schedule-table th { width: auto; white-space: nowrap; }
+.schedule-table td:nth-child(2) { white-space: nowrap; font-variant-numeric: tabular-nums; }
+#schedule h3 { margin-top: 24px; }
+.rank-table th { width: auto; }
+@media (max-width: 600px) { .name-list { gap: 6px; } .rank-table th, .rank-table td { padding: 10px 6px; font-size: .85rem; } }
+@media (max-width: 600px) {
+  .schedule-table { min-width: 0; }
+  .schedule-table caption, .schedule-table tbody { display: block; }
+  .schedule-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .schedule-table tbody tr { display: grid; grid-template-columns: auto 1fr; padding: 12px; border-top: 1px solid var(--line); gap: 6px 12px; }
+  .schedule-table th, .schedule-table td { padding: 0; border: 0; }
+  .schedule-table td:nth-child(2) { text-align: right; }
+  .schedule-table td:last-child { grid-column: 1 / -1; }
+}

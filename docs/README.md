@@ -8,6 +8,6 @@
 - [公開手順](operations/publishing.md)
 - [確認待ち事項](issues/open-decisions.md)
 
-Vol.1の過去docsをAssembleの確定ルールとして扱わない。受領したAssemble確定差分と公開Vol.1の基本ルールを反映。未確定項目のみ「確認中」と表示する。
+2026-10-29のAssemble確定事項と各公開ページを正本とする。Vol.1から新たに採用するのは予選総合Pt同点時の判定順のみ。公開リポジトリ内に運営限定情報を置かない。
 
 - [公開前Git整理と完全性確認](operations/git-readiness.md)
