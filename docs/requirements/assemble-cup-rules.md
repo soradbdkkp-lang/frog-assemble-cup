@@ -9,4 +9,4 @@
 - 応募受付終了。締切日は非掲載。別システムの応募フォームは変更対象外。
 - 担当キラー・サバイバー・リザーブは未確認。メンバー名だけを掲載。
 
-正本：[トップ](../../index.html)、[勝敗・予選順位](../../pages/win-condition.html)、[MAP](../../pages/map-pool.html)、[キラー](../../pages/killer-rules.html)、[サバイバー](../../pages/survivor-rules.html)、[ペナルティ](../../pages/penalties.html)、[注意事項](../../pages/notes.html)。
+正本：[トップ](../../index.html)、[大会情報・対戦表・メンバー](../../pages/tournament-info.html)、[勝敗・予選順位](../../pages/win-condition.html)、[MAP](../../pages/map-pool.html)、[キラー](../../pages/killer-rules.html)、[サバイバー](../../pages/survivor-rules.html)、[ペナルティ](../../pages/penalties.html)、[注意事項](../../pages/notes.html)。
