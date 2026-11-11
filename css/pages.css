@@ -85,3 +85,13 @@
 .killer-card__body { padding: 12px; }
 .killer-card__name { margin: 0; font-weight: 700; line-height: 1.5; font-size: .92rem; }
 @media (max-width: 600px) { .killer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .killer-card__body { padding: 10px; } }
+
+/* Display the supplied portrait in full, preserving its original proportions. */
+.broadcast-profile { display: grid; grid-template-columns: 200px minmax(0, 1fr); align-items: center; gap: 28px; }
+.broadcast-profile__image { width: 200px; max-width: 100%; height: auto; }
+.broadcast-profile__details { min-width: 0; }
+.broadcast-profile__details h3 { font-size: 1.5rem; }
+@media (max-width: 600px) {
+  .broadcast-profile { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .broadcast-profile__image { width: 160px; }
+}
